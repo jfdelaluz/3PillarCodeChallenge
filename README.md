@@ -9,16 +9,17 @@ For the frontend, a single login page was created to authenticate users, and if 
 
 ## Backend
 
-1. Install dependencies:
+1. Move to folder ```backend```
+2. Install dependencies:
 ```
 composer install
 ```
-2. The service must run on port ```8000```
-3. Database migrations required, execute:
+3. The service must run on port ```8000```
+4. Database migrations required, execute:
 ```
 php artisan migrate
 ```
-4. To run project move to folder ```backend``` and execute:
+5. To run project move to folder ```backend``` and execute:
 ```
 php artisan serve
 ```
