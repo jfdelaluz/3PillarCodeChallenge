@@ -9,19 +9,28 @@ For the frontend, a single login page was created to authenticate users, and if 
 
 ## Backend
 
-1. First requirement is for the service to run on port ```8000```
-2. Database migrations required, execute:
+1. Install dependencies:
+```
+composer install
+```
+2. The service must run on port ```8000```
+3. Database migrations required, execute:
 ```
 php artisan migrate
 ```
-3. To run project move to folder ```backend``` and execute:
+4. To run project move to folder ```backend``` and execute:
 ```
 php artisan serve
 ```
 
 ## Frontend
 
-1. Move to folder ```frontend``` and execute command:
+1. Move to folder ```frontend```
+2. To install dependencies:
+```
+yarn
+```
+3. To run project:
 ```
 yarn dev
 ```
